@@ -1,4 +1,5 @@
 ### Hugo .gitignore ###
+# Added test
 
 # Executable may be added to repository
 hugo.exe
