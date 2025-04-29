@@ -17,8 +17,6 @@ enableRobotsTXT = true
 enableEmoji = true
 #sectionPagesMenu = "main"
 #googleAnalytics = "UA-1511XXXX-X"
-relativeURLs = true
-canonifyURLs = true
 
 [params]
 Description = "The emotionally intelligent AI assistant."
