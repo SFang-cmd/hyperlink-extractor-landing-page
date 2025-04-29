@@ -1,7 +1,7 @@
-baseURL = 'https://filipecarneiro.github.io/hugo-bootstrap-theme/'
-title = "Hugo Bootstrap Theme"
-author = "Filipe Carneiro"
-copyright = "Open-source <a class=\"text-muted text-decoration-none\" href=\"https://github.com/filipecarneiro/hugo-bootstrap-theme/blob/main/LICENSE\">MIT</a> Licensed."
+baseURL = "https://sfang-cmd.github.io/hugo-mock-landing-page/"
+title = "Cristofori"
+author = "Sean Fang"
+copyright = "Copyright © 2025 Sean Fang"
 
 timeZone = 'Europe/London'
 
@@ -17,6 +17,11 @@ enableRobotsTXT = true
 enableEmoji = true
 #sectionPagesMenu = "main"
 #googleAnalytics = "UA-1511XXXX-X"
+relativeURLs = true
+canonifyURLs = true
+
+[params]
+Description = "The emotionally intelligent AI assistant."
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
