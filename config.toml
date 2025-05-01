@@ -3,7 +3,7 @@ title = "Hyperlink Extractor"
 author = "Sean Fang"
 copyright = "Copyright © 2025 Sean Fang"
 
-timeZone = 'Europe/London'
+timeZone = 'America/New_York'
 
 # Multilingual
 defaultContentLanguage = "en"
