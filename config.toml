@@ -19,7 +19,7 @@ enableEmoji = true
 #googleAnalytics = "UA-1511XXXX-X"
 
 [params]
-Description = "The emotionally intelligent AI assistant."
+Description = "Your next smart website link extractor for LLM use."
 
 [frontmatter]
   date = ["date", "publishDate", "lastmod"]
