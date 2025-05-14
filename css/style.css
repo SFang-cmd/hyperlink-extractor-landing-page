@@ -9787,38 +9787,102 @@ a .feather-github:hover {
 }
 
 .home {
-  --bd-blue: #6ec6ff;
-  --bd-blue-accent: #b3e5fc;
-  --bd-purple: #90caf9;
-  --bd-dark: #e3f2fd;
-  --bd-mid-blue: #81d4fa;
-  --bd-light-blue: #e1f5fe;
-  --bd-blue-rgb: 110,198,255;
-  --bd-blue-accent-rgb: 179,229,252;
-  --bd-purple-rgb: 144,202,249;
-  --bd-dark-rgb: 227,242,253;
-  --bd-mid-blue-rgb: 129,212,250;
-  --bd-light-blue-rgb: 225,245,254;
+  --main-blue: #3A506B;
+  --accent-teal: #5BC0BE;
+  --button-blue: #567cb6;
+  --select-blue: #506f96;
+  --white: #fff;
+  --link-blue: #2b4a8a;
+  font-family: 'Spartan', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #4b9492 0%, #5BC0BE 100%) !important;
 }
 
 .home .bd-masthead {
   padding: 3rem 0;
-  background-image: linear-gradient(180deg, rgba(var(--bd-dark-rgb), 0.85), rgba(var(--bd-light-blue-rgb), 1) 85%), radial-gradient(ellipse at top left, rgba(var(--bd-blue-rgb), 0.3), transparent 60%), radial-gradient(ellipse at top right, rgba(var(--bd-blue-accent-rgb), 0.25), transparent 65%), radial-gradient(ellipse at center right, rgba(var(--bd-mid-blue-rgb), 0.2), transparent 65%), radial-gradient(ellipse at center left, rgba(var(--bd-purple-rgb), 0.18), transparent 65%);
+  background: none;
+  color: var(--white);
+}
+
+.home .hero-darkbox {
+  background: #3A506B;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(58, 80, 107, 0.13);
+  padding: 2.5rem 1.5rem 2rem 1.5rem;
+  display: inline-block;
+  color: var(--white);
+}
+
+.home .hero-darkbox .logo-title,
+.home .hero-darkbox h1,
+.home .hero-darkbox .h1 {
+  color: var(--white) !important;
+}
+
+.home .hero-darkbox a,
+.home .hero-darkbox a:visited,
+.home .hero-darkbox .logo-title a,
+.home .hero-darkbox .contact-link {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.home .hero-darkbox .btn-bd-primary {
+  color: #fff !important;
+  --bs-btn-color: #fff;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-color: #fff;
+  text-decoration: none !important;
+}
+
+.home .hero-darkbox .btn-bd-primary:hover,
+.home .hero-darkbox .btn-bd-primary:active,
+.home .hero-darkbox .btn-bd-primary:focus {
+  color: #fff !important;
+  text-decoration: none !important;
 }
 
 .home .btn-bd-primary {
   --bs-btn-font-weight: 600;
-  --bs-btn-color: var(--bs-white);
-  --bs-btn-bg: var(--bd-blue);
-  --bs-btn-border-color: var(--bd-blue);
+  --bs-btn-color: var(--white);
+  --bs-btn-bg: var(--button-blue);
+  --bs-btn-border-color: var(--button-blue);
   --bs-btn-border-radius: .5rem;
-  --bs-btn-hover-color: var(--bs-white);
-  --bs-btn-hover-bg: var(--bd-blue-accent);
-  --bs-btn-hover-border-color: var(--bd-blue-accent);
-  --bs-btn-focus-shadow-rgb: var(--bd-blue-rgb);
-  --bs-btn-active-color: var(--bs-btn-hover-color);
-  --bs-btn-active-bg: var(--bd-mid-blue);
-  --bs-btn-active-border-color: var(--bd-mid-blue);
+  --bs-btn-hover-color: var(--white);
+  --bs-btn-hover-bg: var(--select-blue);
+  --bs-btn-hover-border-color: var(--select-blue);
+  --bs-btn-focus-shadow-rgb: 58,80,107;
+  --bs-btn-active-color: var(--white);
+  --bs-btn-active-bg: var(--main-blue);
+  --bs-btn-active-border-color: var(--main-blue);
+}
+
+.home .main-white-bg {
+  background: #fff;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.home .features-section {
+  background: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0 2px 16px rgba(58, 80, 107, 0.08);
+  padding: 2.5rem 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.home a {
+  color: var(--link-blue);
+  text-decoration: underline dotted;
+}
+
+.home select {
+  background: var(--select-blue);
+  color: var(--white);
+  border-radius: 6px;
+  border: 1px solid var(--select-blue);
 }
 
 .navbar {
@@ -9826,9 +9890,9 @@ a .feather-github:hover {
   padding: 1rem 0;
   min-height: 3.5rem;
   font-size: 1.35rem;
-  background-color: transparent;
-  background-image: linear-gradient(to bottom, rgba(var(--bd-blue-rgb), 0.98), rgba(var(--bd-blue-rgb), 0.85));
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(110, 198, 255, 0.15);
+  background-color: #3A506B !important;
+  background-image: none !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1), inset 0 -1px 0 rgba(58, 80, 107, 0.15);
 }
 
 .navbar .navbar-brand,
@@ -9837,6 +9901,22 @@ a .feather-github:hover {
   color: #212529 !important;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link.contact-link,
+.navbar .navbar-nav .nav-link[href*='contact'] {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus,
+.navbar .navbar-nav .nav-link.contact-link:hover,
+.navbar .navbar-nav .nav-link.contact-link:focus,
+.navbar .navbar-nav .nav-link[href*='contact']:hover,
+.navbar .navbar-nav .nav-link[href*='contact']:focus {
+  color: #fff !important;
 }
 
 .navbar .navbar-brand {
@@ -9849,10 +9929,6 @@ a .feather-github:hover {
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-text:hover {
   color: #495057 !important;
-}
-
-.text-violet {
-  color: #6ec6ff;
 }
 
 .list .card {
